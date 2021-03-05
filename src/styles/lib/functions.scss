@@ -1,0 +1,7 @@
+@function spacing($arg) {
+  @return 30px * $arg;
+}
+
+@function shadow($level) {
+  @return 0 #{2px * $level} #{6px * $level} rgba(0,0,40,.18);
+}

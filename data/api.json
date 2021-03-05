@@ -1,0 +1,29 @@
+{
+  "home": {
+    "id": "380912312",
+    "title": "The Program Interview Exercise",
+    "description": "Building React components in Next.js.",
+    "intro": {
+      "id": "648319761",
+      "heading": "Hello World",
+      "copy": "Lorem ipsum dolor set.",
+      "cards": [
+        {
+          "id": "8971614313",
+          "name": "Jyn Erso",
+          "title": "Rebel Leader"
+        },
+        {
+          "id": "7972161526",
+          "name": "Captain Phasma",
+          "title": "First Order Commander"
+        },
+        {
+          "id": "0283801626",
+          "name": "Rey",
+          "title": "Resistance Fighter"
+        }
+      ]
+    }
+  }
+}

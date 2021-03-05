@@ -1,0 +1,23 @@
+@use '../../styles/lib';
+
+
+.root {
+  contain: content;
+  max-inline-size: 1200px;
+  margin-inline: auto;
+  margin-block-start: lib.spacing(3);
+  padding: var(--spacing);
+  text-align: center;
+
+  p {
+    margin-block-start: .5em;
+  }
+}
+
+.container {
+  contain: layout;
+  display: grid;
+  grid: auto / repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing);
+  margin-block-start: var(--spacing);
+}
