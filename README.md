@@ -22,18 +22,18 @@ Go to `localhost:3000` in your favorite browser.
 
 1. HomePage:
 
-   - Render a title element with `title` prop
-   - Render a meta element for description with `description` prop
-   - Hydrate Section component with its props
+   - Render a title element with `title` prop value
+   - Render a meta element for description with `description` prop value
+   - Replace the paragraph of "Hello" with the `Section` component and provide its props
 
 2. Section Component
 
-   - Render all Card components and hydrate props appropraitely
-  
+   - Render all `Card` components and provide their props appropriately
+
 3. Card Component
 
-   - Render a heading level 2 element with `name` prop
-   - Render a paragraph element with `title` prop
+   - Render a heading level 2 element with `name` prop value
+   - Render a paragraph element with `title` prop value
 
 4. Card Styling
 
@@ -46,4 +46,3 @@ Go to `localhost:3000` in your favorite browser.
    - Heading color of property `--primary`
    - Hover: Shadow level 2
    - Hover: Heading color of property `--accent`
-  

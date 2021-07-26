@@ -1,6 +1,7 @@
 import { string } from 'prop-types';
 import styles from './Card.module.scss';
 
+
 const Card = ({ name }) => (
   <article
     className={styles.root}
@@ -11,8 +12,9 @@ const Card = ({ name }) => (
 );
 
 Card.propTypes = {
-  name: string,
-  title: string,
+  name: string.isRequired,
+  title: string.isRequired,
 };
+
 
 export default Card;

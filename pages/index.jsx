@@ -1,28 +1,24 @@
 import { exact, string, object } from 'prop-types';
 import Head from 'next/head';
-import Section from '../src/components/Section';
+// import Section from '../src/components/Section';
 import api from '../data/api.json';
 
-const Home = ({ data }) => (
+
+const Home = () => (
   <>
     <Head>
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <main>
-      <Section />
+      <p>Hello</p>
     </main>
   </>
 );
 
 export const getStaticProps = async () => {
-  // Mock data fetch
   const data = await Promise.resolve(api);
 
-  return {
-    props: {
-      data,
-    }
-  }
+  return { props: { data } };
 };
 
 Home.propTypes = {
@@ -31,9 +27,10 @@ Home.propTypes = {
       id: string,
       title: string,
       description: string,
-      intro: object,
+      section: object,
     }),
   }),
 };
+
 
 export default Home;

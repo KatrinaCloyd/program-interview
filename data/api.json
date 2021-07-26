@@ -3,7 +3,7 @@
     "id": "380912312",
     "title": "The Program Interview Exercise",
     "description": "Building React components in Next.js.",
-    "intro": {
+    "section": {
       "id": "648319761",
       "heading": "Hello World",
       "copy": "Lorem ipsum dolor set.",
