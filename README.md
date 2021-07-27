@@ -37,12 +37,16 @@ Go to `localhost:3000` in your favorite browser.
 
 4. Card Styling
 
-   - Inner content has _column_ layout
+   - Inner content has a _column_ layout
    - Padding uses property `--spacing`
    - Background of property `--foreground`
    - Rounded corners of 6px
-   - Has shadow with `shadow` func, level 1
    - Heading font size 1.2 times the root size
    - Heading color of property `--primary`
-   - Hover: Shadow level 2
    - Hover: Heading color of property `--accent`
+
+Bonus (SCSS):
+   
+   - Has a shadow using local `shadow` func, level 1
+   - Hover: Shadow level 2
+  
