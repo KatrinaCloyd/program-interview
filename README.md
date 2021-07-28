@@ -9,11 +9,19 @@ Install packages.
 ```bash
 yarn
 ```
+-OR-
+```bash
+npm i
+``` 
 
 Start up local server.
 
 ```bash
 yarn start
+```
+-OR-
+```bash
+npm start
 ```
 
 Go to `localhost:3000` in your favorite browser.
