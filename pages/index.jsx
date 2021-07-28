@@ -1,6 +1,5 @@
 import { exact, string, object } from 'prop-types';
 import Head from 'next/head';
-// import Section from '../src/components/Section';
 import api from '../data/api.json';
 
 
@@ -10,14 +9,13 @@ const Home = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <main>
-      <p>Hello</p>
+      <h1>Hello World</h1>
     </main>
   </>
 );
 
 export const getStaticProps = async () => {
   const data = await Promise.resolve(api);
-
   return { props: { data } };
 };
 
@@ -31,6 +29,5 @@ Home.propTypes = {
     }),
   }),
 };
-
 
 export default Home;

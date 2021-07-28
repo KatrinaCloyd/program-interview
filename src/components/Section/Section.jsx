@@ -10,7 +10,6 @@ const Section = ({ heading, copy }) => (
     <h1>{heading}</h1>
     <p>{copy}</p>
     <div className={styles.container}>
-      {/* Cards */}
     </div>
   </section>
 );

@@ -7,7 +7,6 @@ const Card = ({ name }) => (
     className={styles.root}
     aria-label={name || undefined}
   >
-    {/* Content */}
   </article>
 );
 
