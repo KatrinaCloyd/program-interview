@@ -1,8 +1,9 @@
 import { arrayOf, exact, string } from 'prop-types';
 import styles from './Section.module.scss';
+import Card from '../Card'
 
 
-const Section = ({ heading, copy }) => (
+const Section = ({ heading, copy, cards }) => (
   <section
     className={styles.root}
     aria-label={heading || undefined}
@@ -10,7 +11,7 @@ const Section = ({ heading, copy }) => (
     <h1>{heading}</h1>
     <p>{copy}</p>
     <div className={styles.container}>
-      {/* Cards */}
+      {cards.map((e) => <Card {...e} />)}
     </div>
   </section>
 );

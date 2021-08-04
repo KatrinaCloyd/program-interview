@@ -2,12 +2,13 @@ import { string } from 'prop-types';
 import styles from './Card.module.scss';
 
 
-const Card = ({ name }) => (
+const Card = ({ name, title }) => (
   <article
     className={styles.root}
     aria-label={name || undefined}
   >
-    {/* Content */}
+    <h2>{name}</h2>
+    <p>{title}</p>
   </article>
 );
 

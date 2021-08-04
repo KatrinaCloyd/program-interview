@@ -1,16 +1,18 @@
 import { exact, string, object } from 'prop-types';
 import Head from 'next/head';
-// import Section from '../src/components/Section';
+import Section from '../src/components/Section';
 import api from '../data/api.json';
 
 
-const Home = () => (
+const Home = ({ data }) => (
   <>
     <Head>
+      <title>{data.home.title}</title>
+      <meta name="description" content={data.home.description} />
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <main>
-      <p>Hello</p>
+      <Section {...data.home.section} />
     </main>
   </>
 );

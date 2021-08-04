@@ -1,3 +1,19 @@
+@import '../../styles/lib/functions.scss';
+
 .root {
   display: flex;
+  flex-direction: column;
+  padding: var(--spacing);
+  background-color: var(--foreground);
+  border-radius: 6px;
+  box-shadow: shadow(1);
+}
+
+.root h2{
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+
+.root:hover{
+  box-shadow: shadow(2);
 }
