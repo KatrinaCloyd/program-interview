@@ -1,4 +1,4 @@
-@import '../../styles/lib/functions.scss';
+@use '../../styles/lib';
 
 .root {
   display: flex;
@@ -6,7 +6,7 @@
   padding: var(--spacing);
   background-color: var(--foreground);
   border-radius: 6px;
-  box-shadow: shadow(1);
+  box-shadow: lib.shadow(1);
 }
 
 .root h2{
@@ -19,5 +19,5 @@
 }
 
 .root:hover{
-  box-shadow: shadow(2);
+  box-shadow: lib.shadow(2);
 }
